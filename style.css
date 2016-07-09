@@ -560,7 +560,9 @@ hr {
 #page {
 	overflow: hidden;
 }
+.menu-menu-1-container{
 
+}
 .author-info {
 	position: relative;
 	padding-top: 50px;
@@ -710,8 +712,39 @@ hr {
 	line-height: 2em;
 }
 
+.menu-menu-1-container{
+	position: relative;
+	font-size: 0.9em;
+	margin-top: 10%;
+	padding-top: 5px;
+
+	background: rgba(191, 191, 191, 0.42);
+}
+.menu-menu-1-container ul{
+	padding-bottom:5px;
+}
+.menu-item  {
+	display: inline;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+	border-right: 1px solid #bbb;
+}
+.menu-item:last-child{
+	border-right: none;
+
+}
+.menu-item a:link {
+
+	text-decoration: none;
+}
+
+.menu-item:hover{
+	background-color: #808080;
+}
+
 .navigation-copyright {
-	position: absolute;
+	position: relative;
 	top: 2px;
 	left: 0;
 	padding: 4px 7px;

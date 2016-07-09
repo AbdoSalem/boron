@@ -857,3 +857,7 @@ function boron_theme_activated() {
 	}
 }
 add_action('after_switch_theme', 'boron_theme_activated');
+function register_my_menu() {
+	register_nav_menu('header-menu',__( 'Header Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
